@@ -27,7 +27,7 @@ function App() {
   }
 
   let content = (
-    <p style={{ textAlign: 'center'}}> No goals found. Maybe add one? </p>
+    <p style={{ textAlign: 'center'}}> No todo found. Maybe add one? </p>
   )
   
   if (todoList.length > 0) {
